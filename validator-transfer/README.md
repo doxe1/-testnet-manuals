@@ -1,5 +1,5 @@
 # Validator transfer
-![Validator transfer](https://github.com/doxe1/testnet-manuals/blob/main/Server-setup/Git-Transfer.png)
+![Validator transfer](https://github.com/doxe1/testnet-manuals/blob/main/server-setup/Git-Transfer.png)
 **Using Stride node as example**
 
 Validators take more responsibility by raising a node, because they are responsible for the safety of delegates' funds in addition to their own steak. Validators cannot take direct possession of delegated funds, but their mistakes (when slashing) can cause the loss of some of the delegates' and their own funds. This can happen for two reasons:

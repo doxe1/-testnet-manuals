@@ -33,7 +33,7 @@ Like any Cosmos-SDK chain, the hardware requirements are pretty easy.
 
 ## Preparing the server
 
-Prerequisite: [server-setup](https://github.com/doxe1/testnet-manuals/tree/main/Server-setup)
+Prerequisite: [server-setup](https://github.com/doxe1/testnet-manuals/tree/main/server-setup)
 
 ## Node start-up
 

@@ -1,5 +1,5 @@
 # Haqq
-![Haqq Network Guide](https://github.com/doxe1/testnet-manuals/blob/main/Actual-Nodes/Haqq/photo_2022-09-11_20-03-15.jpg)
+![Haqq Network Guide](https://github.com/doxe1/testnet-manuals/blob/main/actual-nodes/haqq/photo_2022-09-11_20-03-15.jpg)
 Official documentation:
 
 > Validator setup instructions:
@@ -77,7 +77,7 @@ haqqd tendermint unsafe-reset-all --home $HOME/.haqqd
 ```
 Download the `addrbook file`
 ```
-wget -O $HOME/.haqqd/config/addrbook.json "https://raw.githubusercontent.com/doxe1/testnet-manuals/main/Actual-Nodes/Haqq/addrbook.json"
+wget -O $HOME/.haqqd/config/addrbook.json "https://raw.githubusercontent.com/doxe1/testnet-manuals/main/actual-nodes/haqq/addrbook.json"
 ```
 ## Setting up the node configuration
 Edit the config so that we no longer use the `chain-id` flag for each CLI command in client.toml

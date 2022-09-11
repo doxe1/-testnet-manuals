@@ -6,7 +6,7 @@ Howdy, I'm Alex, aka [doxe](https://github.com/doxe1) experienced web3 enthusias
 
 [Actual-Nodes](https://github.com/doxe1/testnet-manuals/tree/main/actual-nodes) - these are guides on how to run nodes + information about projects, with all the links you might need.
 
-[Archive](https://github.com/doxe1/testnet-manuals/tree/main/Archive) - this is an archive of out-of-date guides.
+[Archive](https://github.com/doxe1/testnet-manuals/tree/main/archive) - this is an archive of out-of-date guides.
 
 [Server-setup]() - preparing the server to work with it, the necessary libraries, utilities and also testing the server's components.
 

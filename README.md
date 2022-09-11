@@ -8,6 +8,6 @@ Howdy, I'm Alex, aka [doxe](https://github.com/doxe1) experienced web3 enthusias
 
 [Archive](https://github.com/doxe1/testnet-manuals/tree/main/archive) - this is an archive of out-of-date guides.
 
-[Server-setup]() - preparing the server to work with it, the necessary libraries, utilities and also testing the server's components.
+[Server-setup](https://github.com/doxe1/testnet-manuals/tree/main/server-setup) - preparing the server to work with it, the necessary libraries, utilities and also testing the server's components.
 
 [Validator transfer]() - guide on how to transfer the validator to another server, for the cosmos ecosystem.

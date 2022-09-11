@@ -1,5 +1,5 @@
 # Teritori
-![Teritori Network Guide](https://github.com/doxe1/testnet-manuals/blob/main/Actual-Nodes/Teritori/1500x500.jpg)
+![Teritori Network Guide](https://github.com/doxe1/testnet-manuals/blob/main/actual-nodes/teritory/1500x500.jpg)
 Official documentation:
 
 > Validator setup instructions:

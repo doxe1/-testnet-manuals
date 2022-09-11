@@ -1,5 +1,5 @@
 # Rebus
-![Rebus Network Guide](https://github.com/doxe1/testnet-manuals/blob/main/Actual-Nodes/Rebus/rebus-logo-white.png)
+![Rebus Network Guide](https://github.com/doxe1/testnet-manuals/tree/main/actual-nodes/rebus)
 
 Official documentation:
 
@@ -78,7 +78,7 @@ rebusd tendermint unsafe-reset-all --home $HOME/.rebusd
 ```
 Download the `addrbook file`
 ```
-wget -O $HOME/.teritorid/config/addrbook.json "https://raw.githubusercontent.com/doxe1/testnet-manuals/main/Actual-Nodes/Rebus/addrbook.json"
+wget -O $HOME/.teritorid/config/addrbook.json "https://raw.githubusercontent.com/doxe1/testnet-manuals/main/actual-nodes/rebus/addrbook.json"
 ```
 ## Setting up the node configuration
 Edit the config so that we no longer use the `chain-id` flag for each CLI command in client.toml

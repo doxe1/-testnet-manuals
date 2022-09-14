@@ -183,7 +183,7 @@ Create a validator
 #### :heavy_exclamation_mark:Don't forget to save `priv_validator_key.json`:heavy_exclamation_mark:
 ```
 haqqd tx staking create-validator \
---chain-id reb_3333-1 \
+--chain-id haqq_54211-2 \
 --commission-rate 0.05 \
 --commission-max-rate 0.2 \
 --commission-max-change-rate 0.1 \

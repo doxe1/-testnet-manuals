@@ -14,3 +14,5 @@ Howdy, I'm Alex, aka [doxe](https://github.com/doxe1) experienced web3 enthusias
 [Server-setup](https://github.com/doxe1/testnet-manuals/tree/main/server-setup) - preparing the server to work with it, the necessary libraries, utilities and also testing the server's components.
 
 [Validator transfer](https://github.com/doxe1/testnet-manuals/tree/main/validator-transfer) - guide on how to transfer the validator to another server, for the cosmos ecosystem.
+
+[Handy server management commands](https://github.com/doxe1/useful-cmd/blob/main/README.md) - This guide will be updated to over time as i find more interesting commands.

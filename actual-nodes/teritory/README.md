@@ -80,7 +80,7 @@ wget -O $HOME/.teritorid/config/addrbook.json "https://raw.githubusercontent.com
 ## Setting up the node configuration
 Edit the config so that we no longer use the `chain-id` flag for each CLI command in client.toml
 ```
-teritorid config chain-id teritori-testnet-v2
+teritorid config chain-id teritori-testnet-v3
 ```
 If necessary, configure the keyring-backend in `client.toml`
 ```

@@ -12,7 +12,7 @@ https://teritori.explorers.guru/
 
 > Network Chain ID
 
-teritori-testnet-v2
+teritori-testnet-v3
 
 > Denom: 
 
@@ -38,10 +38,10 @@ Prerequisite: [server-setup](https://github.com/doxe1/testnet-manuals/tree/main/
 :heavy_exclamation_mark:IMPORTANT - in the commands below, change everything in <> to your value and remove <>:heavy_exclamation_mark:
 
 ```
-git clone https://github.com/TERITORI/teritori-chain
-cd teritori-chain
-git checkout teritori-testnet-v2
-make install
+git clone https://github.com/TERITORI/teritori-chain && \
+cd teritori-chain && \
+git switch mainnet && \
+make install && \
 ```
 Check version
 ```
@@ -49,7 +49,7 @@ teritorid version --long | head
 ```
 Initialize a node to create the necessary configuration files
 ```
-teritorid init <name_moniker> --chain-id teritori-testnet-v2
+teritorid init <name_moniker> --chain-id teritori-testnet-v3
 ```
 Download `genesis file`
 ```

@@ -96,7 +96,7 @@ external_address=$(wget -qO- eth0.me)
 sed -i.bak -e "s/^external_address *=.*/external_address = \"$external_address:26656\"/" $HOME/.teritorid/config/config.toml
 ```
 ```
-peers="20d21518f3e54e0b8825bc244017c525cb862d17@rpc2.bonded.zone:20956,0d19829b0dd1fc324cfde1f7bc15860c896b7ac1@teritori-testnet.nodejumper.io:27656,1796a1a96e4cb11d59f1988baf435ca21f3bf17a@65.109.17.86:27656"
+peers="ccc59b8a55f9c6e7a24bd693e2796f781ea3a670@65.108.227.133:27656,5ae1012f9b0f4672d8152de903d115dd2f1a3ee3@65.21.170.3:27656,22101a61b235e607d5d0ad51b698d7511ebf87e2@65.108.43.227:26796,15dd94f68c450da2c3b7c60b6364e3dce6f0cbf2@185.193.66.68:26641,620045eefca07f38537caf87af6b4e3a38f6214c@65.109.2.212:26656,356fbd3263e387bea0528ac4bbbc89a83d52e9fa@65.21.134.202:26736,f69d6e4029339882a2e6de39e5d902df16989b61@65.108.76.44:11533,6bc9f80a5123d62c23aadb7b5d68b740a794b0c6@207.180.194.156:36656,8a51c74290f50c07d57cbae19702ea0b88f41c95@65.21.131.215:26736"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.teritorid/config/config.toml
 ```
 ```

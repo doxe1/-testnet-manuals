@@ -53,7 +53,7 @@ teritorid init <name_moniker> --chain-id teritori-testnet-v3
 ```
 Download `genesis file`
 ```
-wget -O $HOME/.teritorid/config/genesis.json "https://raw.githubusercontent.com/TERITORI/teritori-chain/teritori-testnet-v2/genesis/genesis.json"
+wget https://github.com/TERITORI/teritori-chain/raw/mainnet/testnet/teritori-testnet-v3/genesis.json
 ```
 Check version of a `genesis file`
 ```

@@ -1,4 +1,4 @@
-# Brief description
+# brief description
 ![image](https://github.com/doxe1/doxe1/blob/main/git-doxe.png)
 
 A little bit about me:

@@ -1,5 +1,5 @@
 # Rebus
-![Rebus Network Guide](https://github.com/doxe1/testnet-manuals/blob/main/archive/rebus/rebus-logo-white.png)
+![Rebus Network Guide](https://github.com/doxe1/testnet-manuals/blob/main/actual-nodes/rebus/rebus-logo-white.png)
 
 Official documentation:
 

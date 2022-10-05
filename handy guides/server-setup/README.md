@@ -1,4 +1,4 @@
-![Server setup](https://github.com/doxe1/testnet-manuals/blob/main/server-setup/server.png)
+![Server setup](https://github.com/doxe1/testnet-manuals/blob/main/handy%20guides/server-setup/server.png)
 
 Update the repositories
 ```

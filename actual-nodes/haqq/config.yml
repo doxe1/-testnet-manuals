@@ -1,0 +1,66 @@
+---
+enable_dashboard: yes
+
+listen_port: 8888
+
+hide_logs: no
+
+node_down_alert_minutes: 3
+
+prometheus_enabled: yes
+
+prometheus_listen_port: 28686
+
+pagerduty:
+  enabled: no
+  api_key: aaaaaaaaaaaabbbbbbbbbbbbbcccccccccccc
+  default_severity: alert
+
+discord:
+  enabled: yes
+  webhook: https://discord.com/api/webhooks
+
+telegram:
+  enabled: yes
+  api_key: '5555555555:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+  channel: "-666666666"
+
+chains:
+ "haqq":
+   chain_id: haqq_54211-3
+   valoper_address: haqqvaloper1q36msyrnun4aaxp86mkhjn0dudua7wu7cuu5q6
+   public_fallback: yes
+
+   alerts:
+     stalled_enabled: yes
+     stalled_minutes: 7
+     consecutive_enabled: yes
+     consecutive_missed: 5
+     consecutive_priority: critical
+     percentage_enabled: yes
+     percentage_missed: 15
+     percentage_priority: warning
+     alert_if_inactive: yes
+     alert_if_no_servers: yes
+
+     pagerduty:
+       enabled: yes
+       api_key: "" 
+
+     discord:
+       enabled: yes
+       webhook: "" 
+
+     telegram:
+       enabled: yes
+       api_key: "" 
+       channel: "" 
+   nodes:
+     - url: http://65.109.17.86:32657
+       alert_if_down: yes
+     - url: https://haqq-t.rpc.manticore.team:443/
+       alert_if_down: no
+     - url: http://78.46.16.236:32657
+       alert_if_down: no
+     - url: http://138.201.200.159:11461
+       alert_if_down: no

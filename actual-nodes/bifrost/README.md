@@ -45,7 +45,7 @@ https://explorer.testnet.thebifrost.io/
 
 2) Make 50 transactions to `0x64be7d6a8355054a9e789f5f9f3e60dfdaad51df`
 
-3) Transfer (verify if you has the same addresses in your task list, to be ):
+3) Transfer (verify if you has the same addresses in your task list, just to be sure):
 ```
 Goerli : 0x7d208fE5CB10FbCc42be52AAA84bFcD5948E1178 2ETH
 Mumbai : 0xF0AB8b1Ae7e35965f549a44870d4D41c64A8c061 2MATIC

@@ -3,26 +3,25 @@
 # Bifrost | week 2
 
 ## Update
-
-Stop bifrost-node (change the name if you have another name container)
 ```
-docker stop bifrost
-docker rm bifrost
+docker ps -a
 ```
-Download bifrost-node:v1.0.1
 ```
-docker pull thebifrost/bifrost-node:v1.0.1
+docker stop bifrost-validator
+docker rm bifrost-validator
+docker pull thebifrost/bifrost-node:latest
 ```
 Change bifrost-node version on run command
 ```
-docker run -d --network host -v "/var/lib/bifrost-data:/data" --name "bifrost" thebifrost/bifrost-node:v1.0.1 \
+docker run -d -p 30333:30333 -p 9933:9933 -v "/var/lib/bifrost-data:/data" --name "bifrost-validator" thebifrost/bifrost-node:latest \
   --base-path /data \
   --chain /specs/bifrost-testnet.json \
   --port 30333 \
   --validator \
   --state-cache-size 0 \
   --runtime-cache-size 64 \
-  --name "YOUR_CONTROLLER_ADDRESS"
+  --telemetry-url "wss://telemetry-connector.testnet.thebifrost.io/submit 0" \
+  --name "YOUR_NODE_NAME"
 ```
 
 ## Tasks
